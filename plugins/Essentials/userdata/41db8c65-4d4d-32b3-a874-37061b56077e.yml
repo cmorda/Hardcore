@@ -1,0 +1,30 @@
+lastAccountName: _Syntax_Error
+timestamps:
+  login: 1490592989991
+  lastteleport: 1490593173637
+  logout: 1490593332037
+ipAddress: 10.0.0.189
+lastlocation:
+  world: world
+  x: -153.68200808224316
+  y: 80.0
+  z: 1.088944438224782
+  yaw: 195.29987
+  pitch: 24.899963
+money: '0'
+afk: false
+logoutlocation:
+  world: world
+  x: -179.92783116045752
+  y: 11.0
+  z: -89.77278475890836
+  yaw: -212.08777
+  pitch: -2.8500702
+homes:
+  home:
+    world: world
+    x: -192.88066423370026
+    y: 12.0
+    z: -73.69999998807907
+    yaw: -207.58803
+    pitch: 20.249989

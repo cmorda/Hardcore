@@ -1,0 +1,29 @@
+lastAccountName: CavemanlyMan
+timestamps:
+  login: 1489030730106
+  logout: 1489030794216
+  lastteleport: 1488769987714
+ipAddress: 10.0.0.189
+lastlocation:
+  world: world
+  x: 91.51971406381612
+  y: 122.0
+  z: -204.50888479348828
+  yaw: -354.74658
+  pitch: 32.549976
+logoutlocation:
+  world: world
+  x: 1.3677411234377181
+  y: 74.0
+  z: 2.850095490415129
+  yaw: -184.50114
+  pitch: 18.749975
+godmode: false
+homes:
+  home:
+    world: world
+    x: 91.51971406381612
+    y: 122.0
+    z: -204.50888479348828
+    yaw: -354.74658
+    pitch: 32.549976

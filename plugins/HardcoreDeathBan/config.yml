@@ -1,0 +1,14 @@
+Enabled: true
+Ban-Time: 120h
+Death-Message: You have died! You are now banned until Friday 0100 UTC.
+Early-Message: Your ban is not up until Friday 0100 UTC.
+Tick-Delay: 15
+Starting-Credits: 0
+Verbose: false
+Death-Classes:
+  Donator:
+    Ban-Time: 120h
+    Death-Message: Thank you for donating! You are now banned for a reduced time of %bantimeleft%.
+  VIP:
+    Ban-Time: 120h
+    Death-Message: Thank you for being awesome! You are only banned for %bantimeleft%.

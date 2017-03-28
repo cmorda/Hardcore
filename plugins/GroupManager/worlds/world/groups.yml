@@ -1,0 +1,127 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  Helper:
+    default: false
+    permissions:
+    - ab.banlist
+    - ab.check
+    - ab.ipban.exempt
+    - ab.kick.use
+    - ab.mute.temp
+    - ab.mute.undo
+    - ab.warn.perma
+    - ab.warn.temp
+    - ab.warn.undo
+    - essentials.chat.ignore.exempt
+    - essentials.nick
+    - essentials.nick.color
+    - essentials.nick.magic
+    - essentials.realname
+    inheritance:
+    - default
+    info:
+      build: false
+      prefix: '&d'
+      suffix: ''
+  Moderator:
+    default: false
+    permissions:
+    - ab.ban.exempt
+    - ab.ban.perma
+    - ab.ban.temp
+    - ab.ban.undo
+    - ab.check
+    - ab.check.ip
+    - ab.history
+    - ab.kick.exempt
+    - ab.mute.exempt
+    - ab.mute.perma
+    - ab.tempban.exempt
+    - ab.tempmute.exempt
+    - essentials.chat.ignore.exempt
+    - essentials.jail
+    - essentials.nick
+    - essentials.nick.color
+    - essentials.nick.format
+    - essentials.nick.magic
+    - essentials.nick.others
+    inheritance:
+    - builder
+    - g:groupmanager_moderator
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    - g:towny_moderator
+    - g:vanish_moderator
+    - helper
+    info:
+      build: true
+      prefix: '&5'
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - +vanish.effects.toggle.all
+    - -vanish.effects.*
+    - '*'
+    inheritance:
+    - admin
+    info:
+      build: true
+      prefix: '&4'
+      suffix: ''
+  Builder:
+    default: false
+    permissions: []
+    inheritance:
+    - default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      build: true
+      prefix: '&2'
+      suffix: ''
+  Admin:
+    default: false
+    permissions: []
+    inheritance:
+    - moderator
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:towny_admin
+    - g:vanish_admin
+    info:
+      build: true
+      prefix: '&b'
+      suffix: ''
+  VIP:
+    default: false
+    permissions: []
+    inheritance:
+    - default
+    info:
+      build: false
+      prefix: ''
+      suffix: ''
+  Default:
+    default: true
+    permissions:
+    - -bukkit.command.kill
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      build: false
+      prefix: '&e'
+      suffix: ''

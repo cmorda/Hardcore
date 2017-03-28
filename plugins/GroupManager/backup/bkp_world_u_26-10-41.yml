@@ -1,0 +1,37 @@
+users:
+  _Syntax_Error:
+    group: Owner
+    subgroups: []
+    permissions: []
+  b97fc3bf-476a-32bd-bcde-29f2f0eaeeac:
+    lastname: CavemanlyMan
+    group: Admin
+    subgroups: []
+    permissions: []
+  Dustehhh:
+    group: Moderator
+    subgroups: []
+    permissions: []
+  ElgarL:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  GlyphHero:
+    group: VIP
+    subgroups: []
+    permissions: []
+  Katsuki_Shouta:
+    group: Moderator
+    subgroups: []
+    permissions: []
+  KHobbits:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Builder
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

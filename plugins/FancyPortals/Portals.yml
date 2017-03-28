@@ -1,0 +1,84 @@
+Portals:
+  RSTeco:
+    Command: eco set <player> 0
+    Coords:
+    - spawn,-1,117,-1
+    - spawn,-2,117,-1
+    - spawn,-2,117,-2
+    - spawn,-1,117,-2
+    - spawn,0,117,-2
+    - spawn,1,117,-2
+    - spawn,2,117,-2
+    - spawn,2,117,-1
+    - spawn,1,117,-1
+    - spawn,0,117,-1
+    - spawn,0,117,0
+    - spawn,-1,117,0
+    - spawn,-2,117,0
+    - spawn,-2,117,1
+    - spawn,-1,117,1
+    - spawn,0,117,1
+    - spawn,1,117,1
+    - spawn,2,117,1
+    - spawn,2,117,0
+    - spawn,1,117,0
+    - spawn,2,117,2
+    - spawn,1,117,2
+    - spawn,0,117,2
+    - spawn,-1,117,2
+    - spawn,-2,117,2
+    Type: SERVER_COMMAND
+  spawn:
+    Command: mvtp world
+    Coords:
+    - spawn,-1,87,-1
+    - spawn,-2,87,-1
+    - spawn,-2,86,-1
+    - spawn,-1,86,-1
+    - spawn,0,86,-1
+    - spawn,1,86,-1
+    - spawn,2,86,-1
+    - spawn,2,85,-1
+    - spawn,1,85,-1
+    - spawn,0,85,-1
+    - spawn,-1,85,-1
+    - spawn,-2,85,-1
+    - spawn,-2,84,-1
+    - spawn,-1,84,-1
+    - spawn,0,84,-1
+    - spawn,1,84,-1
+    - spawn,2,84,-1
+    - spawn,2,83,-1
+    - spawn,1,83,-1
+    - spawn,0,83,-1
+    - spawn,-1,83,-1
+    - spawn,-2,83,-1
+    - spawn,-2,82,-1
+    - spawn,-1,82,-1
+    - spawn,0,82,-1
+    - spawn,1,82,-1
+    - spawn,2,82,-1
+    - spawn,2,81,-1
+    - spawn,1,81,-1
+    - spawn,0,81,-1
+    - spawn,-1,81,-1
+    - spawn,-2,81,-1
+    - spawn,-2,80,-1
+    - spawn,-1,80,-1
+    - spawn,0,80,-1
+    - spawn,1,80,-1
+    - spawn,2,80,-1
+    - spawn,2,79,-1
+    - spawn,1,79,-1
+    - spawn,0,79,-1
+    - spawn,-1,79,-1
+    - spawn,-2,79,-1
+    - spawn,-2,78,-1
+    - spawn,-1,78,-1
+    - spawn,0,78,-1
+    - spawn,1,78,-1
+    - spawn,2,78,-1
+    - spawn,2,77,-1
+    - spawn,1,77,-1
+    - spawn,0,77,-1
+    Type: SERVER_COMMAND

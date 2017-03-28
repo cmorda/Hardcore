@@ -1,0 +1,23 @@
+lastAccountName: GlyphHero
+timestamps:
+  login: 1490662513084
+  logout: 1490662555778
+  lastteleport: 1489638927507
+ipAddress: 10.0.0.189
+lastlocation:
+  world: spawn
+  x: -4.959943814703799
+  y: 164.0
+  z: -7.448284122386819
+  yaw: 343.8855
+  pitch: 27.20177
+money: '0.0'
+afk: false
+logoutlocation:
+  world: spawn
+  x: 0.43642719288194726
+  y: 142.0
+  z: 0.5843174612121391
+  yaw: 312.8335
+  pitch: 10.974534
+nickname: §6Glyph§3Hero

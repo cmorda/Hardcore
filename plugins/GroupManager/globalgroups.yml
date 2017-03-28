@@ -1,0 +1,202 @@
+# These groups only contain permission nodes.
+#
+# **** You can NOT add anything other than permission nodes ****
+# **** This is NOT where you set up the groups which you give to users! ****
+# **** goto groupmanager/worlds/worldname/groups.yml if you want to set the actual groups! ****
+#
+# These collections are to be inherited in your different worlds groups.yml's
+# They can also be added as one of a users subgroups, but NOT as a primary group.
+# These collections are available to ALL group and user yml's.
+#
+# Add to and customize these groups to fit your needs.
+
+groups:
+
+# Permission nodes for GroupManager
+# by ElgarL, snowleo, continued from gabrielcouto's original
+# http://wiki.ess3.net
+
+  g:groupmanager_default:
+    permissions:
+    - groupmanager.notify.self
+
+  g:groupmanager_moderator:
+    permissions:
+    - groupmanager.notify.other
+
+  g:groupmanager_admin:
+    permissions:
+    - groupmanager.listgroups
+    - groupmanager.mandemote
+    - groupmanager.manpromote
+    - groupmanager.manselect
+    - groupmanager.manuadd
+    - groupmanager.manudel
+    - groupmanager.manwhois
+    - groupmanager.mantogglevalidate
+    - groupmanager.mansave
+    - groupmanager.mangcheckp
+    - groupmanager.manglistp
+    - groupmanager.manucheckp
+    - groupmanager.manulistp
+
+# Permission nodes for CraftBukkit
+# by many devs and contributors
+# http://dl.bukkit.org/
+
+  g:bukkit_default:
+    permissions:
+    - bukkit.broadcast.user
+    - -bukkit.command.plugins
+
+  g:bukkit_moderator:
+    permissions:
+    - bukkit.command.kick
+
+  g:bukkit_admin:
+    permissions:
+    - bukkit.broadcast
+    - bukkit.broadcast.admin
+    - bukkit.command.give
+    - bukkit.command.help
+    - bukkit.command.kill
+    - bukkit.command.list
+    - bukkit.command.me
+    - -bukkit.command.op
+    - -bukkit.command.op.give
+    - -bukkit.command.op.take
+    - bukkit.command.plugins
+    - bukkit.command.reload
+    - bukkit.command.save
+    - bukkit.command.save.disable
+    - bukkit.command.save.enable
+    - bukkit.command.save.perform
+    - bukkit.command.say
+    - bukkit.command.stop
+    - bukkit.command.teleport
+    - bukkit.command.tell
+    - bukkit.command.time
+    - bukkit.command.time.add
+    - bukkit.command.time.set
+    - bukkit.command.version
+    - bukkit.command.whitelist
+    - bukkit.command.whitelist.add
+    - bukkit.command.whitelist.disable
+    - bukkit.command.whitelist.enable
+    - bukkit.command.whitelist.list
+    - bukkit.command.whitelist.reload
+    - bukkit.command.whitelist.remove
+
+# Permission nodes for Essentials
+# by ementalo, snowleo, and KHobbits
+# http://dev.bukkit.org/server-mods/essentials/
+
+  g:essentials_default:
+    permissions:
+    - essentials.help
+    - essentials.motd
+    - essentials.rules
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.worth
+    - essentials.getpos
+    - essentials.ignore
+    - essentials.pay
+
+
+  g:essentials_builder:
+    permissions:
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.msg
+    - essentials.msg.format
+    - essentials.seen
+    - essentials.signs.use.*
+    - essentials.signs.create.disposal
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.trade
+    - essentials.signs.break.disposal
+    - essentials.signs.break.mail
+    - essentials.signs.break.protection
+    - essentials.signs.break.trade
+    - essentials.suicide
+    - essentials.time
+    - essentials.jail.allow.mail
+    - essentials.jail.allow.ping
+    - essentials.jail.allow.seen
+
+  g:essentials_moderator:
+    permissions:
+    - -essentials.spawner.enderdragon
+    - essentials.afk.kickexempt
+    - essentials.nick
+    - essentials.broadcast
+    - essentials.getpos
+    - essentials.getpos.others
+    - essentials.helpop.receive
+    - essentials.invsee
+    - essentials.jump
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.kill
+    - essentials.msg.magic
+    - essentials.mute
+    - essentials.mute.notify
+    - essentials.nick.color
+    - essentials.nick.others
+    - essentials.realname
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.top
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.vanish
+    - essentials.vanish.effect
+    - essentials.whois
+    - essentials.workbench
+
+
+  g:essentials_admin:
+    permissions:
+    - -essentials.backup
+    - -essentials.essentials
+    - -essentials.setspawn
+    - -essentials.reloadall
+    - -essentials.plugin
+    - essentials.world
+    - essentials.worlds.*
+    - essentials.tphere
+    - essentials.tppos
+    - essentials.signs.create.*
+    - essentials.signs.break.*
+    - essentials.spawner
+    - essentials.spawner.*
+    - essentials.thunder
+    - essentials.time
+    - essentials.time.set
+    - essentials.protect.alerts
+    - essentials.protect.admin
+    - essentials.protect.ownerinfo
+    - essentials.*
+
+
+# Permission nodes for VanishNoPacket by mbaxter
+# http://dev.bukkit.org/server-mods/vanish/
+
+  g:vanish_moderator:
+    permissions:
+    - vanish.vanish
+    - vanish.smokin
+    - vanish.nofollow
+    - vanish.nopickup
+    - vanish.preventincomingdamage
+    - vanish.hooks.dynmap.alwayshidden
+    - vanish.hooks.essentials.hide
+
+  g:vanish_admin:
+    permissions:
+    - vanish.silentjoin
+    - vanish.silentquit
+    - vanish.silentchests

@@ -1,0 +1,40 @@
+users:
+  41db8c65-4d4d-32b3-a874-37061b56077e:
+    lastname: _Syntax_Error
+    group: Owner
+    subgroups: []
+    permissions: []
+  5505abb6-a597-3a6b-9ab8-9bc0b71a4a37:
+    lastname: Dustehhh
+    group: Moderator
+    subgroups: []
+    permissions: []
+  a5cb99d4-4f15-39cb-9cca-19421582770e:
+    lastname: GlyphHero
+    group: VIP
+    subgroups: []
+    permissions: []
+  b97fc3bf-476a-32bd-bcde-29f2f0eaeeac:
+    lastname: CavemanlyMan
+    group: Admin
+    subgroups: []
+    permissions: []
+  ElgarL:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  Katsuki_Shouta:
+    group: Moderator
+    subgroups: []
+    permissions: []
+  KHobbits:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Builder
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

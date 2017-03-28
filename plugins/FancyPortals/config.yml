@@ -1,0 +1,5 @@
+# Enable Timer Instead of Move Event to add entity triggering support
+Check For Updates: true
+Timer Instead of Move Event:
+  Enabled: false
+  Time in Seconds: 1
