@@ -1,0 +1,2 @@
+# Hardcore
+Hardcore server configuration
