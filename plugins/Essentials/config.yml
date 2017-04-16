@@ -82,6 +82,47 @@ kits:
     - REDSTONE 1
     - GOLD_AXE 1
     - CHEST 1
+  VIP:
+    delay: 604800
+    items:
+    - IRON_SWORD 1 damage_undead:2 damage_arthropods:2 durability:2 fire_aspect:1 loot_bonus_mobs:1
+    - BOW 1 arrow_damage:1 durability:1 arrow_infinite:1
+    - IRON_PICKAXE 1 dig_speed:3 durability:2 loot_bonus_blocks:1
+    - IRON_SPADE 1 dig_speed:3 durability:2 loot_bonus_blocks:1
+    - IRON_AXE 1 dig_speed:3 durability:2 loot_bonus_blocks:1
+    - IRON_HELMET 1 protection_environmental:2 oxygen:2 durability:2
+    - IRON_CHESTPLATE 1 protection_environmental:2 durability:2
+    - IRON_LEGGINGS 1 protection_environmental:2 durability:2
+    - IRON_BOOTS 1 protection_environmental:2 durability:2 protection_fall:2
+    - GOLDEN_APPLE 1
+    - POTION 1
+    - POTION 1
+    - POTION 1
+    - POTION 1
+    - POTION 1
+    - LOG 32
+    - ARROW 1
+    - SHIELD 1
+    - COOKED_BEEF 64
+  vip:
+    delay: 604000
+    items:
+    - IRON_SWORD 1 damage_undead:2 damage_arthropods:2 durability:2 fire_aspect:1 loot_bonus_mobs:1
+    - IRON_AXE 1 dig_speed:3 durability:2 loot_bonus_blocks:1
+    - IRON_PICKAXE 1 dig_speed:3 durability:2 loot_bonus_blocks:1
+    - ARROW 1
+    - BOW 1 arrow_damage:1 durability:1 arrow_infinite:1
+    - IRON_LEGGINGS 1 protection_environmental:2 durability:2
+    - IRON_BOOTS 1 protection_environmental:2 durability:2 protection_fall:2
+    - IRON_CHESTPLATE 1 protection_environmental:2 durability:2
+    - IRON_HELMET 1 protection_environmental:2 oxygen:2 durability:2
+    - SHIELD 1
+    - LOG 32
+    - PURPLE_SHULKER_BOX 1
+    - MELON 1
+    - GOLDEN_APPLE 6
+    - COOKED_BEEF 64
+    - IRON_SPADE 1 dig_speed:3 durability:2 loot_bonus_blocks:1
 sign-use-per-second: 4
 backup:
   interval: 30

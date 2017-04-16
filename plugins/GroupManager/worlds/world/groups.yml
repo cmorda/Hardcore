@@ -59,9 +59,9 @@ groups:
     - g:groupmanager_moderator
     - g:bukkit_moderator
     - g:essentials_moderator
-    - g:towny_moderator
     - g:vanish_moderator
     - helper
+    - vip
     info:
       build: true
       prefix: '&5'
@@ -84,7 +84,6 @@ groups:
     inheritance:
     - default
     - g:essentials_builder
-    - g:towny_builder
     info:
       build: true
       prefix: '&2'
@@ -97,7 +96,6 @@ groups:
     - g:groupmanager_admin
     - g:bukkit_admin
     - g:essentials_admin
-    - g:towny_admin
     - g:vanish_admin
     info:
       build: true
@@ -105,7 +103,20 @@ groups:
       suffix: ''
   VIP:
     default: false
-    permissions: []
+    permissions:
+    - essentials.chat.color
+    - essentials.delhome
+    - essentials.hat
+    - essentials.home
+    - essentials.kit
+    - essentials.kits.color
+    - essentials.kits.vip
+    - essentials.repair
+    - essentials.repair.armor
+    - essentials.repair.enchanted
+    - essentials.sethome
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.vip
     inheritance:
     - default
     info:
@@ -116,11 +127,12 @@ groups:
     default: true
     permissions:
     - -bukkit.command.kill
+    - essentials.sell
+    - essentials.sell.hand
     inheritance:
     - g:groupmanager_default
     - g:bukkit_default
     - g:essentials_default
-    - g:towny_default
     info:
       build: false
       prefix: '&e'

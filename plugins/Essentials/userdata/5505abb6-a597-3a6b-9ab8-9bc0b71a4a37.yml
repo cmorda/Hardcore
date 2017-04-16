@@ -1,7 +1,7 @@
 lastAccountName: Dustehhh
 timestamps:
-  login: 1490662306649
-  logout: 1490662326754
+  login: 1491675971233
+  logout: 1491676232806
 ipAddress: 10.0.0.189
 lastlocation:
   world: world
@@ -14,8 +14,8 @@ nickname: §bDust§dehhhhhh
 money: '5349.0'
 logoutlocation:
   world: spawn
-  x: -0.026437695161730446
-  y: 139.0
-  z: 9.481995813226037
-  yaw: -205.88312
-  pitch: 12.222758
+  x: 1.89624726262634
+  y: 142.0
+  z: 0.9915811109549502
+  yaw: 73.457886
+  pitch: 37.49864

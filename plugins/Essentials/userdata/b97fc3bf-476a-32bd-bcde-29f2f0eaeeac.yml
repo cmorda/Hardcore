@@ -1,23 +1,27 @@
 lastAccountName: CavemanlyMan
 timestamps:
-  login: 1490575704101
-  lastteleport: 1490575582199
-  logout: 1490576824956
+  login: 1492378178772
+  lastteleport: 1491685253880
+  logout: 1492378268675
   kits:
-    tools: 1489446071033
+    shop: 1491511259084
+    vip: 1491510586039
+    tools: 1491511265184
 ipAddress: 10.0.0.189
 lastlocation:
-  world: world
-  x: -2.716355814668638
-  y: 93.61644260878737
-  z: -148.5630950984775
-  yaw: -151.49998
-  pitch: 10.500003
-money: '0.0'
+  world: spawn
+  x: -17.30000001192093
+  y: 135.02922846391363
+  z: 1.1628317814494324
+  yaw: -111.17029
+  pitch: -60.299854
+money: '2000'
 logoutlocation:
   world: spawn
-  x: 0.05019425902929189
-  y: 139.0
-  z: -8.57122190806465
-  yaw: 95.38574
-  pitch: -5.6999393
+  x: 3.4558146012217543
+  y: 142.0
+  z: 2.0448365874904333
+  yaw: -70.81903
+  pitch: 25.950098
+nickname: §b§ko§r§fSupreme§b_§0Cavelord§b§ko
+afk: false

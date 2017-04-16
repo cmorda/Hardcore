@@ -1,7 +1,7 @@
 lastAccountName: Katsuki_Shouta
 timestamps:
-  login: 1489795054797
-  logout: 1489795261469
+  login: 1491183706420
+  logout: 1491183723903
 ipAddress: 10.0.0.189
 lastlocation:
   world: world
@@ -12,8 +12,8 @@ lastlocation:
   pitch: 0.0
 logoutlocation:
   world: spawn
-  x: 0.7401254263679143
+  x: -0.9833718913357796
   y: 142.0
-  z: 0.6929625661563409
-  yaw: -264.151
-  pitch: 26.100025
+  z: 0.4091966105151299
+  yaw: -276.45117
+  pitch: 20.400038

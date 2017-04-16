@@ -9,9 +9,24 @@ users:
     group: Moderator
     subgroups: []
     permissions: []
+  7baf823c-19a4-30c4-b959-01746bb4ed3e:
+    lastname: Zdok
+    group: Moderator
+    subgroups: []
+    permissions: []
+  81a09b1d-73ed-3d1f-a41b-ae3e1bc9b627:
+    lastname: Katsuki_Shouta
+    group: Moderator
+    subgroups: []
+    permissions: []
+  9b50ff53-8d36-3bb7-8916-a77a87e5e2ba:
+    lastname: LadyKaviir
+    group: Admin
+    subgroups: []
+    permissions: []
   a5cb99d4-4f15-39cb-9cca-19421582770e:
     lastname: GlyphHero
-    group: VIP
+    group: Helper
     subgroups: []
     permissions: []
   b97fc3bf-476a-32bd-bcde-29f2f0eaeeac:
@@ -24,10 +39,6 @@ users:
     subgroups: []
     permissions:
     - groupmanager.noofflineperms
-  Katsuki_Shouta:
-    group: Moderator
-    subgroups: []
-    permissions: []
   KHobbits:
     group: Moderator
     subgroups: []
