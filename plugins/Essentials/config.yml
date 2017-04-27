@@ -3,7 +3,7 @@
 # |                       Notes                          | #
 # +------------------------------------------------------+ #
 ops-name-color: '4'
-nickname-prefix: '~'
+nickname-prefix: ''
 max-nick-length: 45
 ignore-colors-in-max-nick-length: false
 change-displayname: true
