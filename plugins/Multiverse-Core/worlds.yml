@@ -5,7 +5,7 @@ worlds:
     alias: world_the_end
     color: WHITE
     style: NORMAL
-    pvp: 'true'
+    pvp: 'false'
     scale: '16.0'
     respawnWorld: ''
     allowWeather: 'true'
@@ -53,7 +53,7 @@ worlds:
     alias: world
     color: WHITE
     style: NORMAL
-    pvp: 'true'
+    pvp: 'false'
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
@@ -101,7 +101,7 @@ worlds:
     alias: spawn
     color: WHITE
     style: NORMAL
-    pvp: 'true'
+    pvp: 'false'
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
@@ -149,7 +149,7 @@ worlds:
     alias: world_nether
     color: WHITE
     style: NORMAL
-    pvp: 'true'
+    pvp: 'false'
     scale: '8.0'
     respawnWorld: ''
     allowWeather: 'true'
